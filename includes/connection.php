@@ -15,7 +15,7 @@ try {
   
   // * PREPARO DUE VARIABILI DA STAMPARE
   $error = "Connessione fallita:<br>" . $e->getMessage();
-  $description ="Ricorda di importare il database e controlla i parametri di connessione di MAMP!";
+  $description ="Ricorda di importare il database (nella cartella db) e controlla i parametri di connessione di MAMP / XAMPP!";
 
   // * INCLUDO UNA PAGINA DI ERRORE CUSTOMIZZATA
   include(__DIR__ . "/pages/error_page.php");
